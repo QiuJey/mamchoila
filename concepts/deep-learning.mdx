@@ -1,0 +1,59 @@
+---
+title: "Deep Learning: How Neural Networks Power Modern AI"
+sidebarTitle: "Deep Learning"
+description: "Understand how deep learning and neural networks work, where they excel, and which model types like CNNs, RNNs, and Transformers power today's AI tools."
+---
+
+Deep learning is a specialized branch of machine learning that uses structures called neural networks — systems loosely inspired by the human brain — to learn from data. While regular machine learning often requires experts to hand-craft the features a model should look for, deep learning discovers those features automatically by processing data through many layers of computation. This ability to learn directly from raw data — pixels, audio waves, or raw text — is what makes deep learning so powerful, and it's why it sits at the heart of tools like voice assistants, image generators, and large language models.
+
+## What Is a Neural Network?
+
+A neural network is a system made up of layers of simple processing units called **neurons**. Data flows in at the first layer, gets transformed at each subsequent layer, and produces an output at the final layer. Each connection between neurons has a weight — a number that determines how much influence one neuron has on the next. During training, those weights are adjusted thousands of times until the network produces accurate results.
+
+Think of it like learning to recognize a cat in a photo. The first layers of the network might detect simple features — edges and color contrasts. Deeper layers combine those into shapes — ears, whiskers, eyes. The final layers put it all together and say: "This is a cat." No one programmed those steps explicitly — the network figured them out from millions of labeled images.
+
+The word "deep" in deep learning simply refers to the number of layers in the network. More layers allow the model to learn more abstract and complex representations.
+
+## Where Deep Learning Shines
+
+Deep learning doesn't outperform other approaches in every situation — but for these domains, it has proven remarkably effective:
+
+<CardGroup cols={2}>
+  <Card title="Image Recognition" icon="image">
+    Deep learning can identify objects, faces, and scenes in photos and video with accuracy that rivals — and often exceeds — human performance. It powers photo tagging, medical scans, and self-driving car vision.
+  </Card>
+  <Card title="Speech & Audio" icon="microphone">
+    By learning patterns in sound waves, deep learning models can transcribe speech, identify speakers, recognize music, and even generate realistic voices from text.
+  </Card>
+  <Card title="Natural Language" icon="message-lines">
+    Deep learning models read and generate human language at a sophisticated level — enabling translation, summarization, chatbots, and the large language models behind modern AI assistants.
+  </Card>
+  <Card title="Generative Tasks" icon="sparkles">
+    Deep learning is the engine behind AI-generated images, music, video, and text — systems that create entirely new content by learning the statistical patterns in their training data.
+  </Card>
+</CardGroup>
+
+## Common Deep Learning Models to Know
+
+You don't need to understand the math to benefit from knowing what each of these model families is good at.
+
+**Convolutional Neural Networks (CNNs)**
+CNNs are designed specifically for processing grid-like data — most commonly images. They use a special operation called convolution to scan across an image and detect spatial patterns like edges, textures, and shapes. If an AI product does anything with photos or video, there's a good chance a CNN is involved.
+
+**Recurrent Neural Networks (RNNs)**
+RNNs are built to handle sequential data — information where order matters, like sentences, time-series data, or audio. They process one element at a time while keeping a kind of short-term memory of what came before. This made them the go-to architecture for early language and speech tasks, though they've largely been replaced by a newer approach.
+
+**Transformers**
+Transformers are the dominant architecture in modern AI. Rather than processing sequences one step at a time, they look at all parts of the input simultaneously using a mechanism called **attention** — which lets the model weigh how relevant each word or token is to every other. Transformers scale extremely well with more data and computing power, which is why they became the foundation for today's most capable AI systems.
+
+<Note>
+  Transformer models are the technology behind most of the AI tools making headlines today — including ChatGPT, Google Gemini, and Claude. When you hear terms like "large language model" or "LLM," those models are almost always built on the Transformer architecture. You'll explore these in much more depth as you continue through the academy.
+</Note>
+
+## What's Next?
+
+You now understand the neural network foundations that power modern AI. The next concept builds directly on this — exploring the AI systems that don't just analyze content, but create it.
+
+<Card title="Explore Generative AI →" icon="arrow-right" href="/concepts/generative-ai">
+  Discover how AI generates text, images, code, and more — and how you can start using it today.
+</Card>

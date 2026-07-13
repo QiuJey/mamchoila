@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "AI Academy",
+  "projectDescription": "An online AI Academy that guides beginner learners through foundational AI concepts, hands-on courses, and practical projects.",
   "theme": "almond",
-  "name": "AI Academy",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -73,20 +71,14 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@aiacademy.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Start Learning",
-      "href": "/create-account"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Beginner-friendly AI courses with no prior coding knowledge required",
+    "Structured learning paths tailored to different goals",
+    "Hands-on projects and quizzes to reinforce learning",
+    "Completion certificates for finished courses",
+    "Live Q&A and community forums for peer support",
+    "Courses on generative AI, prompt engineering, and AI tools",
+    "Self-paced learning with progress tracking"
+  ],
+  "publicApiSurface": []
 }
